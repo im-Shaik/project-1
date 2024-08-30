@@ -1,0 +1,33 @@
+body {
+  background-color: hsl(0, 0%, 90%);
+  display: flex;
+  justify-content: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  width: 1200px;
+  background-color: hsl(0, 0%, 100%);
+  padding: 30px;
+}
+
+input[type="text"] {
+  width: 50%;
+}
+
+span {
+  color: red;
+  font-size: 24px;
+}
+
+p {
+  color: blue;
+  padding: 0;
+  margin: 0;
+  text-align: right;
+  display: inline;
+}
+
+th {
+  width: 50%;
+}
